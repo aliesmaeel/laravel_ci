@@ -18,7 +18,7 @@ jobs:
             application_name: laravelphp8.2
             environment_name: Laravelphp82-env
             existing_bucket_name: elasticbeanstalk-eu-north-1-975049940648
-            region: eu-east-1
+            region: eu-north-1
             version_label: ${{github.sha}}
             deployment_package: deploy.zip
 
